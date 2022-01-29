@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 5%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(130, 140, 194, 0.9)), to(rgba(121, 103, 118, 0.9))), url(img/bgPic.jpg);
+  background-image: linear-gradient(rgba(130, 140, 194, 0.9), rgba(121, 103, 118, 0.9)), url(img/bgPic.jpg);
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .search-bar {
+  width: 100%;
+  max-width: 700px;
+  background: rgba(48, 33, 33, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+  -webkit-backdrop-filter: blur(4px) saturate(180%);
+          backdrop-filter: blur(4px) saturate(180%);
+}
+
+.container .search-bar button {
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #a05dc7;
+  cursor: pointer;
+}
+
+.container .search-bar img {
+  width: 25px;
+}
+
+.container input {
+  background: transparent;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: #cac7ff;
+}
+
+.container ::-webkit-input-placeholder {
+  color: #cac7ff;
+}
+
+.container :-ms-input-placeholder {
+  color: #cac7ff;
+}
+
+.container ::-ms-input-placeholder {
+  color: #cac7ff;
+}
+
+.container ::placeholder {
+  color: #cac7ff;
+}
